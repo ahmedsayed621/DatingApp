@@ -23,6 +23,7 @@
     "bootswatch": "^5.1.3",
     "font-awesome": "^4.7.0",
     "hammerjs": "^2.0.8",
+    "ng2-file-upload": "^1.4.0",
     "ngx-bootstrap": "^7.1.2",
     "ngx-gallery": "^5.10.0",
     "ngx-gallery-9": "^1.0.6",

@@ -25,6 +25,8 @@ import {TabsModule} from 'ngx-bootstrap/tabs';
 import { NgxGalleryModule } from 'ngx-gallery-9';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { MemberEditComponent } from './members/member-edit/member-edit.component';
+import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
+import {  FileUploadModule } from 'ng2-file-upload';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,8 @@ import { MemberEditComponent } from './members/member-edit/member-edit.component
     NotFoundComponent,
     ServerErrorComponent,
     MemberCardComponent,
-    MemberEditComponent
+    MemberEditComponent,
+    PhotoEditorComponent
   ],
   imports: [
     BrowserModule,
@@ -54,7 +57,8 @@ import { MemberEditComponent } from './members/member-edit/member-edit.component
     }),
     TabsModule.forRoot(),
     NgxGalleryModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    FileUploadModule
 
   ],
   providers: [
