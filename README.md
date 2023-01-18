@@ -1,28 +1,44 @@
 # DatingApp
 Social App for dating and make friends 
+<br/>
+
 Setting up the developer environment
+<br/>
 
-Creating the ASP.NET Core WebAPI and the Angular app using the DotNet CLI and the Angular CLI
 
-Adding a Client side login and register function to our Angular application
+Routing 
+<br/>
+Erorr handling
+<br/>
 
-Adding 3rd party components to add some pizzazz to the app
+JWT
+<br/>
 
-Adding routing to the Angular application and securing routes.
+Authntication and authrization 
+<br/>
 
-Using Automapper in ASP.NET Core
+Automapper 
+<br/>
 
-Building a great looking UI using Bootstrap
+UI using Bootstrap
+<br/>
 
-Adding Photo Upload functionality as well as a cool looking gallery in Angular
+Photo Upload functionality 
+<br/>
+
+Cloudinary 3rd party
+<br/>
 
 Angular Template forms and Reactive forms and validation
+<br/>
 
 Paging, Sorting and Filtering
+<br/>
 
-Adding a Private Messaging system to the app
-
-
+Private Messaging system 
+<br/>
 
 Using SignalR for real time presence and live messaging between users
+<br/>
+
 
