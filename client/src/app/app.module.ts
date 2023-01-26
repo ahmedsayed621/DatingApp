@@ -33,7 +33,13 @@ import { DateInputComponent } from './_forms/date-input/date-input.component'
 import {PaginationModule} from 'ngx-bootstrap/pagination'
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { TimeagoModule } from 'ngx-timeago';
+import { ModalModule } from 'ngx-bootstrap/modal';
 import { MemberMessagesComponent } from './members/member-messages/member-messages.component';
+import { AdminPanelComponent } from './admin/admin-panel/admin-panel.component';
+import { HasRolesDirective } from './_diractives/has-roles.directive';
+import { UserMangementComponent } from './admin/user-mangement/user-mangement.component';
+import { PhotoMangementComponent } from './admin/photo-mangement/photo-mangement.component';
+import { RolesModalsComponent } from './modals/roles-modals/roles-modals.component';
 
 
 @NgModule({
@@ -54,7 +60,12 @@ import { MemberMessagesComponent } from './members/member-messages/member-messag
     PhotoEditorComponent,
     TextInputComponent,
     DateInputComponent,
-    MemberMessagesComponent
+    MemberMessagesComponent,
+    AdminPanelComponent,
+    HasRolesDirective,
+    UserMangementComponent,
+    PhotoMangementComponent,
+    RolesModalsComponent
   ],
   imports: [
     BrowserModule,
@@ -74,7 +85,8 @@ import { MemberMessagesComponent } from './members/member-messages/member-messag
     BsDatepickerModule.forRoot(),
     PaginationModule.forRoot(),
     ButtonsModule.forRoot(),
-    TimeagoModule.forRoot()
+    TimeagoModule.forRoot(),
+    ModalModule.forRoot()
 
 
   ],
