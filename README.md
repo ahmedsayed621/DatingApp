@@ -38,9 +38,11 @@ Paging, Sorting and Filtering
 Private Messaging system 
 <br/>
 
-<p align="center">
-  <video src="https://res.cloudinary.com/dunljq51j/video/upload/v1684323085/datingAppProject_xqyujj.wmv" controls>
-</p>
+<video width="560" height="315" controls>
+  <source src="https://res.cloudinary.com/dunljq51j/video/upload/v1684323085/datingAppProject_xqyujj.wmv" type="video/wmv">
+  Your browser does not support the video tag.
+</video>
+
 Using SignalR for real time presence and live messaging between users
 <br/>
 
