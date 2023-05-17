@@ -2,10 +2,6 @@
 Social App for dating and make friends 
 <br/>
 
-Setting up the developer environment
-<br/>
-
-
 Routing 
 <br/>
 Erorr handling
@@ -17,11 +13,6 @@ JWT
 Authntication and authrization 
 <br/>
 
-Automapper 
-<br/>
-
-UI using Bootstrap
-<br/>
 
 Photo Upload functionality 
 <br/>
@@ -37,8 +28,6 @@ Paging, Sorting and Filtering
 
 Private Messaging system 
 <br/>
-
-
 
 https://github.com/ahmedsayed621/DatingApp/assets/58530571/f9b78140-4f20-4697-9147-df7f00e764b5
 
