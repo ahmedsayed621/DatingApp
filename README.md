@@ -39,7 +39,7 @@ Private Messaging system
 <br/>
 
 <p align="center">
-  <video src="https://res.cloudinary.com/dunljq51j/video/upload/v1684323085/datingAppProject_xqyujj.wmv">
+  <video src="https://res.cloudinary.com/dunljq51j/video/upload/v1684323085/datingAppProject_xqyujj.wmv" controls>
 </p>
 Using SignalR for real time presence and live messaging between users
 <br/>
